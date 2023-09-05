@@ -1,9 +1,9 @@
 import random
 
 # List of strings
-string_list = ["apple", "banana", "cherry", "date", "elderberry"]
+string_list = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"]
 
-# Get a random string from the list
-random_string = random.choice(string_list)
+# Get 2 random strings from the list without duplicates
+random_strings = random.sample(string_list, 2)
 
-print(random_string)
+print(random_strings)
